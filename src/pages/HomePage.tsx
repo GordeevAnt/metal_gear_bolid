@@ -1,7 +1,12 @@
+import PageTitle from "../widgets/PageTitle";
+
 export default function HomePage() {
     return (
-        <div className="HomePage">
-            Это главная страница
-        </div>
+        <>
+            <PageTitle title="Главная"/>
+            <div className="HomePage">
+                Это главная страница
+            </div>
+        </>
     )
 }

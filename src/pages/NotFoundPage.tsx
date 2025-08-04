@@ -1,5 +1,10 @@
+import PageTitle from "../widgets/PageTitle";
+
 export default function NotFoundPage() {
   return (
-    <div>Страница не найдена</div>
+    <>
+      <PageTitle title="Страница не найдена"/>
+      <div>Страница не найдена</div>
+    </>
   )
 }
