@@ -1,7 +1,7 @@
 export default function Home_Icon() {
     return (
         <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
-            height="55" width="55" viewBox="0 0 469.122 469.122" xmlSpace="preserve">
+            height="45" width="45" viewBox="0 0 469.122 469.122" xmlSpace="preserve">
         <g>
             <path style={{fill: '#496A72'}} d="M102.43,159.716c0,15.46-12.53,28-28,28c-1.71,0-3.38-0.15-5-0.45c-13.08-2.35-23-13.8-23-27.55
                 s9.92-25.2,23-27.55c1.62-0.3,3.29-0.45,5-0.45C89.9,131.716,102.43,144.255,102.43,159.716z"/>

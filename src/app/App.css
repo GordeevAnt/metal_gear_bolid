@@ -1,3 +1,5 @@
+/* GLOBAL */
+
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
@@ -11,37 +13,56 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    height: 50px;
     background-color: black;
     padding: 7px 20px 7px 20px;
     z-index: 1000;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    /* gap: 10%; */
 }
 
-.link {
-    font-size: 15pt;
-    color: rgb(169, 200, 222);
+/* Header elements */
+
+.home_btn {
+    width: 108px;
+    border: 2px solid rgb(169, 200, 222);
+    border-radius: 4px;
+    padding-left: 8px;
+    display: flex;
+    flex-direction: row;
     text-decoration: none;
 }
 
+.home_btn_txt {
+    font-size: 20pt;
+    color: rgb(169, 200, 222);
+    width: 45px;
+    height: 26px;
+    text-align: center;
+    margin-left: 3px;
+    margin-block-start: 8px;
+    margin-block-end: 0;
+}
+
 .head_input {
-    width: 35%;
-    height: 44px;
+    width: 40%;
+    height: 34px;
     border-radius: 15px;
     margin-top: 5px;
 }
 
 .basket_btn {
-    width: 60px;
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(169, 200, 222);
+    border-radius: 4px;
+    margin-top: 3px;
     margin-right: 35px;
     display: flex;
     justify-content: space-around;
-    border: 4px solid rgb(169, 200, 222);
-    border-radius: 4px;
 }
 
 .basket_icon {
-    margin-top: 7px;
+    margin-top: 6px;
 }
